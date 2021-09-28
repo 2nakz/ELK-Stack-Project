@@ -5,7 +5,7 @@ Cybersecurity Boot Camp
 
 The files in this repository were used to configure the network depicted below.
 
-Diagrams/Networking Diagram.jpg
+https://github.com/2nakz/ELK-Stack-Project/blob/d12c9e088b063cf6598119572a26fa6045f0b3cd/Diagrams/Networking%20Diagram.jpg
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
