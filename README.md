@@ -102,6 +102,7 @@ This ELK server is configured to monitor the following machines:
 We have installed the following Beats on these machines:
  - Specify which Beats you successfully installed_
     [Filebeat Module Status Screenshot](Images/Filebeat_Module_Status_Screenshot.PNG) 
+    
     [Metricbeat Module Status Screenshot](Images/Metricbeat_Module_Status_Screenshot.PNG)
 
 These Beats allow us to collect the following information from each machine:
