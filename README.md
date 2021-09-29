@@ -91,7 +91,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-[ELK-VM Docker PS](Images/ELK-VM Docker PS.PNG)
+[ELK-VM Docker PS](Images/ELK-VM_Docker_PS.PNG)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -101,8 +101,7 @@ This ELK server is configured to monitor the following machines:
 
 We have installed the following Beats on these machines:
  - Specify which Beats you successfully installed_
-    [Filebeat Module Status Screenshot](Images/Filebeat Module Status Screenshot.PNG)
-    
+    [Filebeat Module Status Screenshot](Images/Filebeat Module Status Screenshot.PNG) 
     [Metricbeat Module Status Screenshot](Images/Metricbeat Module Status Screenshot.PNG)
 
 These Beats allow us to collect the following information from each machine:
