@@ -10,6 +10,7 @@ The files in this repository were used to configure the network depicted below.
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the Networking Diagram file may be used to install only certain pieces of it, such as Filebeat.
 
 [filebeat-playbook.yml](Ansible/filebeat-playbook.yml)
+
 [filebeat-config.yml](Linux/filebeat-config.yml)
 
 This document contains the following details:
@@ -84,13 +85,13 @@ The playbook implements the following tasks:
  - In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
     - SSH into Jump-Box Provisioner (ssh sysadmin@52.152.162.128)
     - Start and Attach the Ansible docker (sudo docker start fervent_montalcini / sudo docker attach fervent_montalcini)
-    - Create the install-elk.yml in the /etc/ansible/roles directory (![install-elk.yml](Ansible/install-elk.yml))
+    - Create the install-elk.yml in the /etc/ansible/roles directory ([install-elk.yml](Ansible/install-elk.yml))
     - Ran the install-elk.yml in the same directory.
     - SSH into the ELK-VM to verify the server is up and running.
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![ELK-VM Docker PS](Images/ELK-VM Docker PS.PNG)
+[ELK-VM Docker PS](Images/ELK-VM Docker PS.PNG)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -100,8 +101,8 @@ This ELK server is configured to monitor the following machines:
 
 We have installed the following Beats on these machines:
  - Specify which Beats you successfully installed_
-    - ![Filebeat Module Status Screenshot](Images/Filebeat Module Status Screenshot.PNG)
-    - ![Metricbeat Module Status Screenshot](Images/Metricbeat Module Status Screenshot.PNG)
+    - [Filebeat Module Status Screenshot](Images/Filebeat Module Status Screenshot.PNG)
+    - [Metricbeat Module Status Screenshot](Images/Metricbeat Module Status Screenshot.PNG)
 
 These Beats allow us to collect the following information from each machine:
  - In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
